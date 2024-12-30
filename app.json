@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "coffeShop",
+    "slug": "coffeShop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/CoffeeShotlogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/bg.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff",
+      "icon": "./assets/Frame.png",
+      "iconResizeMode": "contain",
+      "iconSize": 200
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/CoffeeShotlogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.coffeeshop.app"
+    },
+    "web": {
+      "favicon": "./assets/CoffeeShotlogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8413446f-106a-405d-aa33-2f1e91668693"
+      }
+    }
+  }
+}
